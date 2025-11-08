@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Regional Cuisines — Taste of India</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Taste of India</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="regional.html">Regional Cuisines</a></li>
+          <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h2 class="mb-4">Regional Cuisines</h2>
+
+    <!-- Table summarizing regions -->
+    <div class="table-responsive mb-4">
+      <table class="table table-striped align-middle shadow-sm rounded">
+        <thead class="table-dark">
+          <tr>
+            <th>Region</th>
+            <th>Signature Dish</th>
+            <th>Main Ingredients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="north">
+            <td>North India</td>
+            <td>Butter Chicken</td>
+            <td>Chicken, tomatoes, cream, ghee, garam masala</td>
+          </tr>
+          <tr id="south">
+            <td>South India</td>
+            <td>Dosa</td>
+            <td>Rice, urad dal, coconut, curry leaves</td>
+          </tr>
+          <tr id="east">
+            <td>East India</td>
+            <td>Rasgulla</td>
+            <td>Milk, sugar, chhena</td>
+          </tr>
+          <tr id="west">
+            <td>West India</td>
+            <td>Pav Bhaji</td>
+            <td>Potatoes, tomatoes, peas, pav bread</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Image gallery with lightbox -->
+    <div class="row g-3">
+      <div class="col-sm-6 col-md-3">
+        <a href="https://images.unsplash.com/photo-1562967916-eb82221dfb36?w=1200&q=80&auto=format&fit=crop" class="lightbox-link">
+          <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36?w=600&q=60&auto=format&fit=crop" class="img-fluid rounded" alt="North Food">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <a href="https://images.unsplash.com/photo-1512058564366-c9e3a1b1f3d9?w=1200&q=80&auto=format&fit=crop" class="lightbox-link">
+          <img src="https://images.unsplash.com/photo-1512058564366-c9e3a1b1f3d9?w=600&q=60&auto=format&fit=crop" class="img-fluid rounded" alt="South Food">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <a href="https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?w=1200&q=80&auto=format&fit=crop" class="lightbox-link">
+          <img src="https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?w=600&q=60&auto=format&fit=crop" class="img-fluid rounded" alt="East Food">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <a href="https://images.unsplash.com/photo-1589308078059-95b2a5d0b9d2?w=1200&q=80&auto=format&fit=crop" class="lightbox-link">
+          <img src="https://images.unsplash.com/photo-1589308078059-95b2a5d0b9d2?w=600&q=60&auto=format&fit=crop" class="img-fluid rounded" alt="West Food">
+        </a>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <!-- Quick regional card grid -->
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-3 h-100 shadow-sm">
+          <h5>North India</h5>
+          <p>Hearty curries, tandoor-baked breads, rich gravies, and aromatic rice dishes.</p>
+          <a class="btn btn-sm btn-outline-primary" href="#north">Learn more</a>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3 h-100 shadow-sm">
+          <h5>South India</h5>
+          <p>Fermented batter dishes, coconut-based gravies, tangy curries, and rice-dominant meals.</p>
+          <a class="btn btn-sm btn-outline-primary" href="#south">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 text-center">
+    <div class="container">
+      <small>© Taste of India — Replace images with licensed media for final submission.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/scripts.js"></script>
+</body>
+</html>
